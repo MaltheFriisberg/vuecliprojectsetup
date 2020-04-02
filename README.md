@@ -38,6 +38,8 @@ npm run lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
+#  toplevel components for development
+
 ### Serve the Index top level component as Vue app
 ```
 npm run serve-index
@@ -46,13 +48,14 @@ npm run serve-index
 ```
 npm run serve-subpage
 ```
+# Other output types
 
 ### Build Index as a webcomponent
 ```
 vue build --target wc --name my-element src/subpage/App.Vue
 ```
 
-###Build Index entry as a component library
+### Build Index entry as a component library
 ```
 npm run index-lib-build
 ```
