@@ -4,8 +4,8 @@
     "private": true,
     "scripts": {
         "serve": "vue-cli-service serve",
-        "serve-index": "cd src/pages/index/ && vue serve",
-        "serve-subpage": "cd src/pages/subpage/ && vue serve",
+        "serve-index": "cd src/views/index/ && vue serve",
+        "serve-subpage": "cd src/views/subpage/ && vue serve",
         "build": "vue-cli-service build",
         "lint": "vue-cli-service lint",
         "index-build": "npm run build -- --target wc --name index-component src/index/App.vue",
