@@ -38,7 +38,7 @@ npm run lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-#  toplevel components for development
+# Serve toplevel components for development
 
 ### Serve the Index top level component as Vue app
 ```
