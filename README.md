@@ -27,3 +27,14 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+###Build Index as a webcomponent
+```
+vue build --target wc --name my-element src/subpage/App.Vue
+```
+
+###Build Index entry as a component library
+```
+npm run index-lib-build
+```
